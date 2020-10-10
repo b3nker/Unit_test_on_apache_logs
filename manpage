@@ -1,0 +1,37 @@
+.\" Manpage pour l'application Analog.
+.TH
+.SH NAME
+analog : application d'analyse de log
+
+.SH SYNOPSIS	
+Dans le repertoire Tests/ effectuer la commande "./mktest.sh" pour exécuter tous les tests unitaires. Sinon utiliser la syntaxe suivante:	
+- analog [OPTIONS]... FILE.log
+.SH DESCRIPTION	
+Donne la liste des 10 résultats les plus demandés dans un fichier de log fourni
+.SH OPTIONS
+	-(pas d'options) : 
+.RS
+		fournit la liste des 10 résultats les plus demandés 	
+.RE
+	-g nomGraphe.dot :
+.RS 
+		fournit le graphe des interactions entre TOUS les logs
+.RE
+
+	-e : 
+.RS
+		exclut tous les documents css, javascript et de type image (png,jpeg,gif,...)
+.RE
+	-t HEURE : 
+.RS
+		N'inclut que les résultats dans l'intervalle de temps [HEURE;HEURE+1[
+.RE
+	-s STATUT :
+.RS
+		N'inclut que les logs avec le statut(int) désiré
+.RE
+Note : les options sont cumulables et peuvent êtres ordonnées selon la volonté de l'utilisateur
+.SH BUGS
+Toujours fournir un nom_de_Graphe.dot après l'extension -g et mettre en DERNIER ARGUMENT le nom_du_fichier.log
+.SH AUTHOR
+Ecrit par VERSMEE Erwan et KERMANI Benjamin (Groupe 3131)

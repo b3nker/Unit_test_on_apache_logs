@@ -1,0 +1,3 @@
+Entrez une heure comprise entre 00 et 24
+Erreur de syntaxe : ./analog -t 00 nomfichier.log
+

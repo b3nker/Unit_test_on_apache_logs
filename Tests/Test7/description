@@ -1,0 +1,2 @@
+On ajoute l'option -t avec une heure (UN ENTIER)  qui n'est pas compris entre [0;24]
+On ne sélectionne donc que les requêtes dans l'intervalle [heure,heure+1]

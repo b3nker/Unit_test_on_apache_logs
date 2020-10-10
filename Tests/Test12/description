@@ -1,0 +1,1 @@
+On utilise une option qui n'existe pas (ex: -c). Le programme s'execute et affiche une ligne signalant le problème sur la sortie standard

@@ -1,0 +1,1 @@
+On utilise l'option -s STAUT_INT sans spécifier le statut_int, affiche une erreur sur la sortie cerr
